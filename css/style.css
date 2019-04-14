@@ -392,7 +392,7 @@ a {
 .chat-container {
     background-color: #f8f8f8;
     flex-basis: 100%;
-    padding: 20px 35px;
+    padding: 20px 40px;
 
     overflow-y: scroll;
     margin-right: -16px;
@@ -445,6 +445,10 @@ a {
     display: flex;
 
     margin-bottom: 30px;
+}
+
+.chat-item-content {
+    margin-bottom: 10px;
 }
 
 .chat-item-user {
@@ -536,4 +540,9 @@ a {
     height: 10px;
     border-radius: 50%;
     border: var(--border);
+}
+
+.chat-youtube {
+    width: 400px;
+    height: 300px;
 }
