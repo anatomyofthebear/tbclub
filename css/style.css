@@ -215,6 +215,10 @@ a {
     background: var(--color-green-transparent);
 }
 
+.channel.active .channel-count {
+    background: #ffffff;
+}
+
 .channels-title {
     margin-bottom: 15px;
 
@@ -445,6 +449,13 @@ a {
     display: flex;
 
     margin-bottom: 30px;
+}
+
+.chat-item--white {
+    background-color: #fff;
+    border-radius: 6px;
+    border: var(--border);
+    padding: 10px 15px;
 }
 
 .chat-item-content {
