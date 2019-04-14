@@ -554,6 +554,7 @@ a {
 }
 
 .chat-youtube {
-    width: 400px;
+    width: 100%;
+    max-width: 600px;
     height: 300px;
 }
